@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+    <meta name="description" content="CCC Exam Demo">
+    <meta name="author" content="Christian Langer">
+    <link rel="icon" href="">
+
+    <title>CCC Exam Demo</title>
+    <link type="text/css" rel="stylesheet" href="./css/bootstrap.min.css">    
+    
+    <link type="text/css" rel="stylesheet" href="./css/animate.css">
+
+    <link type="text/css" rel="stylesheet" href="./css/font-awesome.min.css">
+
+    <link type="text/css" rel="stylesheet" href="./css/custom.css">
+
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+      
+      body {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Style the header */
+      header {
+          background-color: #666;
+          padding: 12px;
+          text-align: center;
+          font-size: 35px;
+          color: white;
+      }
+      article {
+          float: left;
+          padding: 20px;
+          width: 100%;
+          background-color: #f1f1f1;
+          height: 550px;
+      }
+      
+      /* Style the footer */
+      footer {
+          background-color: #777;
+          padding: 10px;
+          text-align: center;
+          color: white;
+      }
+      
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+          nav, article {
+              width: 100%;
+              height: auto;
+          }
+      }
+      </style>
+
+</head>
+
+<body>
+<header>
+  <h2>CCC Practice Demo</h2>
+</header>
+
+<section>
+  
+  <article>
+      <div id="center">
+          <div class="quiz-container">
+            <div id="quiz">
+              <div id="quizquestionContainer">
+                <div id="quizoptionContainer"></div>
+              </div>
+              <div id="quizresultsContainer">
+                  <h2 style="text-align: center;">Login</h2>
+                  <form name="login">
+                    <div class="login">
+                    <input type="text" placeholder="Username" id="username" name="userid">  
+                  <input type="password" placeholder="password" id="password" name="pswrd">  
+                  <button  type="button" class="button" onclick="check(this.form)" value="Login">Login</button>
+
+                </div>
+                <div class="shadow"></div>
+            </form>
+              </div>
+            </div>
+          </div>     
+        </div>    
+  </article>
+</section>
+<script language="javascript">
+    function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if(form.userid.value == "admin" && form.pswrd.value == "admin")
+      {
+        window.open('pageSelection.html','_self');/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Error Password or Username")/*displays error message*/
+      }
+    }
+    </script>
+<footer>
+  <h3>Rasika Computer</h3>
+</footer>
+
+
+
+</body>
+</html>

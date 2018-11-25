@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <title>Practice Demo</title>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="jquery.min.js"></script>
+	<script src="pagination.js"></script>
+
+</head>
+<body>
+
+<h1>Practice Demo</h1>
+	<div id="nameContainer">Enter your name to begin quiz
+		<input type="text" name="username" id="username"/><input type="submit" id="submitName" name="submitName" />
+	</div>
+	<div class="login">
+		<a href="login.html"><button  type="button" class="button"  value="Login">Exit Test</button></a>
+		<a href="pageSelection.html"><button  type="button" class="button"  value="Login">Main Page</button></a>
+  <div class="shadow"></div>
+<div id="loggedInContain">
+<div id="loggedIn">
+
+	<div id="welcome">
+		<p><span id="welcomeUser"></span><span id="userNameDisplay"></span></p>
+	</div>
+	<div id="changeUser">
+		<p id="changeUserText"></p>
+		<input type="submit" id="changeUserButton" name="changeUserButton"/>
+	</div>
+</div>
+</div>
+
+<div id="buttons"></div>
+
+<div id="wrapper">
+<form action="" id="quizForm">
+    <h2 id="question"></h2>
+
+
+
+</form>
+</div>
+<div id="quizDiv"></div>
+<input type="button" name="next" value="Next" id="nButton">
+<input type="button" name="back" value="Back" id="bButton">
+<div id="data-container"></div>
+<div id="pagination-container"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="cookie.js"></script>
+<script src="quiz_data.js"></script>
+<script src="script.js"></script>
+<script type="text/javascript" src="quiz_data.json"></script>
+
+<script>
+$('#pagination-container').pagination({
+    dataSource: [1, 2, 3, 4, 5, 6, 7,195],
+    callback: function(data, pagination) {
+        // template method of yourself
+        var html = template(data);
+        $('#data-container').html(html);
+    }
+})
+</script>
+</body>
+
+
+
+</html>
