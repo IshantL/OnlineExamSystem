@@ -13,13 +13,14 @@
 
 function quiz_init() {
 
-     
+     debugger;
       // setting up/caching some vars
         
         var userChoice = [];
         var div = $('#quizDiv');
         var nButton = $('#nButton');
         var bButton = $('#bButton');
+        var goQuestion = $('#goButton');
         var questionHeading = $("h2");
         var currentQuestion = 0;
         var score = 0;
@@ -35,6 +36,7 @@ function quiz_init() {
 
         // display the iterative questions
         function showQuestion() {
+            debugger;
             var displayQuestion = allQuestions[currentQuestion].question;
             var txt = document.createTextNode(displayQuestion);
             var questionNo = document.createTextNode("Question " + (currentQuestion + 1));
@@ -49,6 +51,7 @@ function quiz_init() {
 
         // display the iterative choices
         function showChoices() {
+            debugger;
             var displayChoices = allQuestions[currentQuestion].choices;
             for (var i = 0; i < displayChoices.length; i++) {
                 var lb = document.createElement('label');
@@ -108,6 +111,7 @@ function quiz_init() {
             } 
             else {
                 logAnswer();
+                checkAnswer(currentQuestion);
             }
 
             // If there are more questions
@@ -120,6 +124,43 @@ function quiz_init() {
             }
 
         });
+
+        goQuestion.on('click', function () {
+            debugger;
+            var value = $('#goQuestion').val();
+            currentQuestion=parseInt(value)-1 ;
+            if (currentQuestion < allQuestions.length && currentQuestion >= 0) {
+
+                questionHeading.empty();
+                div.empty();
+                showQuestion();
+            showChoices();
+            showButtons();
+            } // finish and disable button
+            else {
+                alert("Question number not found");
+            }
+            
+        });
+
+        function checkAnswer(currentQuestion){
+            debugger;
+            currentAnswer = ($('input[name=answer]:checked', '#quizDiv').val()); // grab the users choice
+            var ans=parseInt(currentAnswer);
+            if(ans===allQuestions[currentQuestion-1].correctAnswer){
+                alert("Right");
+                document.getElementById('answerPanal').innerHTML = "";
+                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color:  #076749;margin-left: 40%;">RIGHT ANSWER</div>`
+               
+            }else{
+               var ansKey= allQuestions[currentQuestion-1].correctAnswer;
+               var rightAnswer=allQuestions[currentQuestion-1].choices[ansKey];
+                alert("Wrong....");
+                document.getElementById('answerPanal').innerHTML = "";
+                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color: #ea0a0a;margin-left: 40%;">WRONG ANSWER.... Right answer is `+rightAnswer +`</div>`
+
+            }
+        }
 
 
         function logAnswer(){

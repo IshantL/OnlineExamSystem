@@ -1,15 +1,14 @@
 <!doctype html>
 <html>
 <head>
-    <title>Practice Demo</title>
+    <title>Questions</title>
 	<link rel="stylesheet" href="style.css"/>
-	<script src="jquery.min.js"></script>
-	<script src="pagination.js"></script>
+
 
 </head>
 <body>
 
-<h1>Practice Demo</h1>
+<h1>Questions</h1>
 	<div id="nameContainer">Enter your name to begin quiz
 		<input type="text" name="username" id="username"/><input type="submit" id="submitName" name="submitName" />
 	</div>
@@ -30,20 +29,7 @@
 </div>
 </div>
 
-<div id="buttons"></div>
 
-<div id="wrapper">
-<form action="" id="quizForm">
-    <h2 id="question"></h2>
-</form>
-</div>
-<div id="quizDiv"></div>
-<div id="answerPanal"></div>
-<input type="button" name="next" value="Next" id="nButton">
-<input type="button" name="back" value="Back" id="bButton">
-&nbsp; &nbsp;
-Go To Question: <input type="number" id="goQuestion"  value="" style="width:40px;" />
-<input type="button" name="Submit" value="GoQuestion" id="goButton" style="margin-left: 10px;">
 
 
 
@@ -54,12 +40,6 @@ Go To Question: <input type="number" id="goQuestion"  value="" style="width:40px
 <script src="script.js"></script>
 <script type="text/javascript" src="quiz_data.json"></script>
 
-<script>
-function submitMe(id) {
-    var value = document.getElementById(id).value;
-    alert(value);
-}
-</script>
 </body>
 
 
