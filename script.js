@@ -52,7 +52,23 @@ function quiz_init() {
         // display the iterative choices
         function showChoices() {
             debugger;
-            var displayChoices = allQuestions[currentQuestion].choices;
+            var displayChoices=[];
+            var displayChoices1 = allQuestions[currentQuestion].A;
+            var displayChoices2 = allQuestions[currentQuestion].B;
+            var displayChoices3 = allQuestions[currentQuestion].C;
+            var displayChoices4 = allQuestions[currentQuestion].D;
+            if(displayChoices1!==""){
+                displayChoices.push(displayChoices1);
+           }if(displayChoices2!==""){
+                 displayChoices.push(displayChoices2);
+            }
+            if(displayChoices3!==""){
+                displayChoices.push(displayChoices3);
+           }
+           if(displayChoices4!==""){
+            displayChoices.push(displayChoices4);
+            }
+
             for (var i = 0; i < displayChoices.length; i++) {
                 var lb = document.createElement('label');
                 var inp = document.createElement('input');
@@ -146,18 +162,33 @@ function quiz_init() {
         function checkAnswer(currentQuestion){
             debugger;
             currentAnswer = ($('input[name=answer]:checked', '#quizDiv').val()); // grab the users choice
-            var ans=parseInt(currentAnswer);
-            if(ans===allQuestions[currentQuestion-1].correctAnswer){
+            var ans=currentAnswer;
+            var ansfinal=null;
+            if(ans==="0"){
+                ansfinal = "A";
+            }
+            if(ans==="1"){
+                ansfinal = "B";
+            }
+            if(ans==="2"){
+                ansfinal = "C";
+            }
+            if(ans==="3"){
+                ansfinal = "D";
+            }
+            if(ansfinal===allQuestions[currentQuestion-1].correctAnswer){
                 alert("Right");
                 document.getElementById('answerPanal').innerHTML = "";
-                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color:  #076749;margin-left: 40%;">RIGHT ANSWER</div>`
+                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color:  #076749;margin-left: 40%;">Question No : `+ currentQuestion +` - RIGHT ANSWER</div>`
                
             }else{
+                debugger;
+               
                var ansKey= allQuestions[currentQuestion-1].correctAnswer;
-               var rightAnswer=allQuestions[currentQuestion-1].choices[ansKey];
-                alert("Wrong....");
+               var rightAnswer=allQuestions[currentQuestion-1][ansKey];
+                alert("Wrong....Right answer is "+ rightAnswer);
                 document.getElementById('answerPanal').innerHTML = "";
-                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color: #ea0a0a;margin-left: 40%;">WRONG ANSWER.... Right answer is `+rightAnswer +`</div>`
+                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color: #ea0a0a;margin-left: 40%;">Question No : `+ currentQuestion +` - WRONG ANSWER.... Right answer is `+rightAnswer +`</div>`
 
             }
         }
@@ -214,8 +245,13 @@ function quiz_init() {
         showQuestion();
         showChoices();
         showButtons();
-
-
+        debugger;
+        var quesElem=allQuestions.map((ques)=>{
+            debugger;
+            var a=JSON.stringify(ques,null, 2);;
+            return `<div>`+a+`</div>`
+        }).join("");
+        document.getElementById('questionslist').innerHTML+=quesElem;
     }
 
 getQuestions(); // grab the questions stored in the JSON file

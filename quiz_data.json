@@ -1,19 +1,1928 @@
 [
-
-        {
-           "question": "Who is Prime Minister of the United Kingdom?",
-           "choices": ["David Cameron", "Gordon Brown"],
-           "correctAnswer":0  },
-        {
-           "question": "What is Britain's 2nd largest city?",
-           "choices": ["Manchester", "London", "Birmingham", "Tony Blair"],
-           "correctAnswer":2  },
-        {
-           "question":"Which sport is the most popular in the UK",
-           "choices": ["Basketball", "Football", "Watching TV", "Tony Blair"],
-           "correctAnswer":1  },
-        {
-           "question":"The UK is made up of how many countries",
-           "choices": ["2", "3", "4", "Tony Blair"],
-           "correctAnswer":2  }
-    ]
+	{
+		"no": "1",
+		"question": "if you will be displaying How printing your document on another computer you will want to sure and select the option under the save tab ",
+		"A": "Save font",
+		"B": "embedded font",
+		"C": "etype font ruue embed font",
+		"D": "save truetype font ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "2",
+		"question": "Device drivers are specialised programs designed to allow particular input and output device to communication with the rest of the computer system ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "3",
+		"question": "Which option can be used to create a new slide show with the current slide but presented in a different order ",
+		"A": "Custom show ",
+		"B": "slideshow view",
+		"C": "Slideshow setup ",
+		"D": "rehersal",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "4",
+		"question": "a smiley is an expression representing facial expression of Writers ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "5",
+		"question": "Windows NT is application software",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "6",
+		"question": "Internet required",
+		"A": "Are commonly agreed set of rules to communicate between computers",
+		"B": "An international agreement to connect computer ",
+		"C": "A local area network",
+		"D": "A world wide web",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "7",
+		"question": "Amoung  ABF",
+		"A": " JPG TIF ",
+		"B": " GIF",
+		"C": " TIF  He is an odd man out because it is not a graphic file format ",
+		"D": "0",
+		"correctAnswer": "1"
+	},
+	{
+		"no": "8",
+		"question": "Search engines can search document only ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "9",
+		"question": "The back and forward buttons can be used to visit only pages from the same website ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "10",
+		"question": "An icon is use",
+		"A": "To represent the file linked to it ",
+		"B": "To execute the application ",
+		"C": "To display the content of file ",
+		"D": "To add a command to it ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "11",
+		"question": "NRI means ",
+		"A": "None of the options ",
+		"B": "Non ruler individuals ",
+		"C": "On rural immigrants ",
+		"D": "Non resident Indian",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "12",
+		"question": "PowerPoint allows you to change colour of all subject and text on a flat except art organisation chart ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "13",
+		"question": "Number 1 100 is binary number system is equal to ",
+		"A": "8",
+		"B": "15",
+		"C": "12",
+		"D": "10",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "14",
+		"question": "What is the most commonly used the file name for the main page of www site ",
+		"A": "Index .HTML ",
+		"B": "Home . HTML",
+		"C": "start.HTML",
+		"D": "deaelt.HTML",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "15",
+		"question": "Terminator are used in bus topology",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "16",
+		"question": "…...it is one of the document collaboration software ",
+		"A": "Sun Java ",
+		"B": "microsoft  SQL  server ",
+		"C": "Work zone",
+		"D": "Microsoft dot net ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "17",
+		"question": "Bluetooth works with a distance of up to  metres ",
+		"A": "150",
+		"B": "200",
+		"C": "100",
+		"D": "10",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "18",
+		"question": "Which of the following memories needs refresh ",
+		"A": "ram",
+		"B": "rom",
+		"C": "sram",
+		"D": "dram",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "19",
+		"question": "Which of the following terms applies total all the web pages from amazon.com ",
+		"A": "Top level domain ",
+		"B": "web domain ",
+		"C": "website ",
+		"D": "website address ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "20",
+		"question": "If Outlook expression is not Netscape communicator is called Outlook expression icon ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "21",
+		"question": "There is no difference between e-government and e-governance ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "22",
+		"question": "If dial marked in Megahertz show a  reading of 3.525 mhz what would it how is if it were marked kilohertz  ",
+		"A": "35.25 khz",
+		"B": "3",
+		"C": "525",
+		"D": "000 khz",
+		"correctAnswer": "3525 khaz"
+	},
+	{
+		"no": "23",
+		"question": "After insertion of a row or column it can't be deleted in excel sheet ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "24",
+		"question": "A Broadcast message in an example full duplex method ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "25",
+		"question": "Which of the following changes to the folder dir of your computer ",
+		"A": "M k d i r d i r",
+		"B": "rmdir dir",
+		"C": "cddir",
+		"D": "ieddir",
+		"correctAnswer": "cddir"
+	},
+	{
+		"no": "26",
+		"question": "Which of the following statement are true ",
+		"A": "Lurking is not a good idea because other user will be become agi that you are not practicing ",
+		"B": "Smileys  is a symbol type from keyboard ",
+		"C": "Emoticon Sara way of shortening 3 word phrase ",
+		"D": "To lurk means to participate in a conversation on the Internet without responding to any of the message ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "27",
+		"question": "…. are covered under pm jdm Life Insurance Scheme of rs 30000 % ",
+		"A": "Employees of Central / State Government /public sector undertakings /Bank ",
+		"B": "All of the options ",
+		"C": "Aam Aadmi Bima Yojana beneficiaries",
+		"D": "income tax payee",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "28",
+		"question": "New slide button on too lbar insert a new slide in current presentation ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "29",
+		"question": "Basic objectives of an OS is to make computer system interactive and user friendly ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "30",
+		"question": "Which of the following is not the command in Slideshow menu",
+		"A": "Slide transition",
+		"B": "set up show ",
+		"C": " pack and go ",
+		"D": "Action button ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "31",
+		"question": "When writing an email it is generally a good idea for your preparation paragraph is to be ",
+		"A": "Long ",
+		"B": "in a huge font making them easier to read   ",
+		"C": "short",
+		"D": "Always indented ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "32",
+		"question": "All of the following are examples of storage device except ",
+		"A": "Hard disc drives",
+		"B": "CD drives",
+		"C": "printer",
+		"D": "floppy disc . drives",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "33",
+		"question": "Small text file that website put on your computer information about you and your reference is known as ",
+		"A": "Home page ",
+		"B": "address ",
+		"C": "URL ",
+		"D": "cookies ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "34",
+		"question": "Spamming is a very poor netiquette means ",
+		"A": "Something a message that contain graphic description",
+		"B": "Spilling the use of meat by products into your keyboard ",
+		"C": "Sending in lines of half nonsensical  as clear garbage in our chat conversation ",
+		"D": "Posting or emailing unsolicited advertising message to wild audience ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "35",
+		"question": "Message does not allow you to store email address in address book ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "36",
+		"question": "Name box display",
+		"A": "The address of the sale of the range that is currently selected ",
+		"B": "The program and the name of files you are working on ",
+		"C": "What is going on the program ",
+		"D": "A List of available Excel commands that relate to the task you are performing ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "37",
+		"question": "Using Windows Explorer A + Sign in front of folder indicates ",
+		"A": "A Graphic file ",
+		"B": "the folder contents of folder ",
+		"C": "an open folder",
+		"D": "a  text file",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "38",
+		"question": "The easy way to apply varied animation to test on slide has to apply on animation scheme ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "39",
+		"question": "Margin is not set with the format option of a work book ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "40",
+		"question": "User can sorte email item and inbox or sent items according to the sender",
+		"A": " subdate ",
+		"B": " received a date and size ",
+		"C": "0",
+		"D": "1",
+		"correctAnswer": ""
+	},
+	{
+		"no": "41",
+		"question": "Bank does not provide loans for ",
+		"A": "Drinking and gambling",
+		"B": "education loan",
+		"C": "crop loan",
+		"D": "home loan",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "42",
+		"question": "True false function function of a few that possibility to do front result depending on the entered condition",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "43",
+		"question": "Directory is a list of files ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "44",
+		"question": "Which Boolean operator is used to match all words of search engine ",
+		"A": "or",
+		"B": "and",
+		"C": "not",
+		"D": "and ore both",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "45",
+		"question": "A blank line is also called as a paragraph it is called as a empty paragraph ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "46",
+		"question": "System software enables the end user to accomplish certain specific task ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "47",
+		"question": "Control + home key is used to move the first cell in the work sheet ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "48",
+		"question": "The part of the fragment without the mark is called a fragment identifier ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "49",
+		"question": "The TCP IP protocol / family  include IP TCP and udp ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "50",
+		"question": "In inbox view of email client program message heading having exclamation mark ",
+		"A": "Message without attachment  ",
+		"B": "identify important message ",
+		"C": "identify the new re read or reply to message",
+		"D": "message to be dealt letter ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "51",
+		"question": "It is not possible to remember the bullets on number after some text is inserted in between ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "52",
+		"question": "It is possible to save in your computer downloaded web pages from website ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "53",
+		"question": "The principal mode Asynchronous and synchronous ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "54",
+		"question": "Full form of M A N  is ",
+		"A": "Mini area network ",
+		"B": "Megha area network ",
+		"C": "Medium area network",
+		"D": "Metropolitan Area Network",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "55",
+		"question": "Present day computers work internally with decimal number ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "56",
+		"question": "For reading an attachment users should double click attachment icon the application and file will be opened ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "57",
+		"question": "Whenever we start MS Word the title bar contain book 1 MS Word at the left side ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "58",
+		"question": "You can use email to send message but not files across the Internet ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "59",
+		"question": "Which part of an address is separated from the previous part by a dot ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "60",
+		"question": "World wide web conferencing in a group of user located around the globe to talk and interact with each other ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "61",
+		"question": "Shortcut to save without exiting is MS Word ",
+		"A": "Alt +w ",
+		"B": "ctrl+w",
+		"C": "ctrl+a",
+		"D": "ctrl+s",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "62",
+		"question": "MS Window OS is product from",
+		"A": "IBM",
+		"B": "INTEL",
+		"C": "ICL",
+		"D": "MICKROSOFT",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "63",
+		"question": "Uniform resource locator points to one web page only ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "64",
+		"question": "Layer of the OSI model is the ",
+		"A": "Physical layer ",
+		"B": "link layer ",
+		"C": "network layer",
+		"D": "transport layer ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "65",
+		"question": "Screensaver on your desktop appears when computer is idle for a while",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "66",
+		"question": "The number of characters that can be stored in a given physical space is",
+		"A": "World length ",
+		"B": "data density",
+		"C": "Byte ",
+		"D": "field",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "67",
+		"question": "The specific arrangement of text and images on a PowerPoint slide is known as layout ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "68",
+		"question": "A Provides access to features of the problem ",
+		"A": "Menu bar",
+		"B": "browser ",
+		"C": "feature presentation",
+		"D": "office assistant",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "69",
+		"question": "To change font size of a selected slide title ",
+		"A": "Click the toolbar for dropdown Arrow and choose the font you prefer ",
+		"B": "Click title ",
+		"C": "net font Ok",
+		"D": "Click format",
+		"correctAnswer": " title and choose a font from the font tab"
+	},
+	{
+		"no": "70",
+		"question": "Which is not a characteristic of menu interface ",
+		"A": "The user need not to know what tasks should be accomplished but does not need to know the system ",
+		"B": "It provides the user with onscreen list of available selections ",
+		"C": "To properly utilised many users must know which task  they Desire",
+		"D": "User is limited to the option display ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "71",
+		"question": "The desktop of a computer refers to the visible screen",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "72",
+		"question": "Which is the mismatch function among other three function with refers to a function category ",
+		"A": "average",
+		"B": "and",
+		"C": "if",
+		"D": "0",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "73",
+		"question": "Coldfusion is tool which SQL database queries into HTML documents ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "74",
+		"question": "Lonans for money leaders are ",
+		"A": "No proper accounting ",
+		"B": "with high rate of insert",
+		"C": "all of option",
+		"D": "no transport ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "75",
+		"question": "BCC and cc are additional fruits used to send multiple copies of an email message",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "76",
+		"question": "The formatting of a paragraph is stored in the paragraph marker ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "77",
+		"question": "How do you select an entire column in spreadsheet",
+		"A": "Hold is down the control keys as you click anywhere in the column",
+		"B": "Click the column heading letter ",
+		"C": "Hold down the shift keys as you click anywhere in the column ",
+		"D": "select eid ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "78",
+		"question": "We can get information about software upgrade through the software automatic upgrade feature",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "79",
+		"question": "Header and body are to major section of an Internet email message",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "80",
+		"question": "In order to save a file",
+		"A": " on the spreadsheet toolbar",
+		"B": " click on the save button ",
+		"C": "0",
+		"D": "1",
+		"correctAnswer": ""
+	},
+	{
+		"no": "81",
+		"question": "Two persons can have the samil email address ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "82",
+		"question": "Sheet tabs can be remember easily by",
+		"A": "From the menu",
+		"B": "From the menu",
+		"C": " select edit / sheet",
+		"D": "You cannot rename a sheet tab ",
+		"correctAnswer": "Clicking the sheet tab and typing text "
+	},
+	{
+		"no": "83",
+		"question": "Right clicking something in excel open shortcut find listing everything you can do the object",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "84",
+		"question": "Which of the following best refeus are so called golden rule of netiquette",
+		"A": "Some time act friendly in chat and email",
+		"B": "Remember the human in (remember that a real person is receiving the message) ",
+		"C": "Only Flame your friends by accident ",
+		"D": "Spam your friends ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "85",
+		"question": "Which of the following does not have word processing ",
+		"A": "Google Docs",
+		"B": " Google Chrome ",
+		"C": "MS Office ",
+		"D": "open office",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "86",
+		"question": "There are two indication of packet loss time out occurs and duplicate apps are received during ",
+		"A": "Fast recovery",
+		"B": "slow start ",
+		"C": "congestion avoidance",
+		"D": "fast  Retransmit ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "87",
+		"question": "Display setting can be used for ",
+		"A": "Power saving settings ",
+		"B": "disc formatting",
+		"C": "mouse button setting",
+		"D": "driver setting ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "88",
+		"question": "With the email We can attach the file ",
+		"A": "Only one ",
+		"B": "no more no more than 1 ",
+		"C": "no more than 2",
+		"D": "more than 2 ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "89",
+		"question": "An individual reason for not successfully delivered email is ",
+		"A": "No search user account ",
+		"B": "Network and find machine",
+		"C": "time limit exceeded ",
+		"D": "machine found but cannot deliver ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "90",
+		"question": "The person's home computer address is to the right of the @ sign and usually has some connection to the site where the user has his her email account ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "91",
+		"question": "Keys phrase are tipped I in search bar to get list of site ",
+		"A": "",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "92",
+		"question": "Beginning with are reserved for future use ",
+		"A": "1000",
+		"B": "1111",
+		"C": "1100",
+		"D": "1110",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "93",
+		"question": "Which browser first popularised  the use of plug in software ",
+		"A": "Internet Explorer",
+		"B": "chimera ",
+		"C": "ncsa mosaic",
+		"D": "net seape nevigator ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "94",
+		"question": "What is e-commerce ",
+		"A": "Buying and selling of products and service over the Internet ",
+		"B": "Buying and selling of international goodes  ",
+		"C": "Buying and selling of products having to do with the computers ",
+		"D": "Buying and selling of electronic good ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "95",
+		"question": "Pressing which key can move you to the text Slide in the slideshow ",
+		"A": "Escape ",
+		"B": "left Arrow",
+		"C": "enter ",
+		"D": "space bar ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "96",
+		"question": "A simple protocol used for fetching Email from remote mailbox",
+		"A": "DMSP",
+		"B": "IMAP",
+		"C": "RFC1225",
+		"D": "POP3",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "97",
+		"question": "There is no provision of textured background in a slides",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "98",
+		"question": "Network etiquette is also called Internet etiquette ",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "99",
+		"question": "To print just part Of the select you Would select want To print end",
+		"A": "Select print selection In the print dialog And then print ",
+		"B": "Click the print button",
+		"C": "Select the prince election On page setup set  and then print",
+		"D": "Press the sprint Screen  key",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "100",
+		"question": "To press copied Matter On place to another …...Key option may be used",
+		"A": "Ctrl + s",
+		"B": "Ctrl + v",
+		"C": "Ctrl + p",
+		"D": "Ctrl + x",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "",
+		"question": "",
+		"A": "",
+		"B": "",
+		"C": "",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "1",
+		"question": "In which topology central device HUB is uded?",
+		"A": "motor",
+		"B": "star",
+		"C": "bus",
+		"D": "ring",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "2",
+		"question": "Before Utilizing resource the operating system should know its ",
+		"A": "Damage ",
+		"B": "CPU cycle",
+		"C": "Functionality",
+		"D": "status",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "3",
+		"question": "Bulleted lists and numbered lists are types of hanging indents",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "4",
+		"question": "If cell D1 contains ",
+		"A": " what is the result in cell D3 ?",
+		"B": "D1 &D2",
+		"C": "Error message ",
+		"D": "Gooodmoring",
+		"correctAnswer": "#NAME!"
+	},
+	{
+		"no": "5",
+		"question": "Mutilated notes",
+		"A": "can be exchanged at Bank ",
+		"B": "Should be thrown away ",
+		"C": "Should be thrown away ",
+		"D": "None of the options ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "6",
+		"question": "A computer programmer _____________ .",
+		"A": "can operate all types of computer equipments",
+		"B": "can draw only flowchart",
+		"C": "does all the thinking for computer ",
+		"D": "can enter input data quickly ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "7",
+		"question": "An organized collection of logically related data is known as",
+		"A": "Information ",
+		"B": "Meta data ",
+		"C": "Database ",
+		"D": "Data",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "8",
+		"question": "GUI Operating system are much easier for end-users to learn and use because commands do not need to be known or memorize ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "9",
+		"question": "In Recurring Deposits",
+		"A": " ",
+		"B": "a fixed sum is deposited every month",
+		"C": "interest is paid at FDR rate",
+		"D": "period of deposit is a fixed tenure ",
+		"correctAnswer": "All of the options "
+	},
+	{
+		"no": "10",
+		"question": "A program on a remote machine that can answer the request for files stored on its own is ",
+		"A": "mail serve ",
+		"B": "mail answer ",
+		"C": "chat server ",
+		"D": "mail finder",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "11",
+		"question": "Menus can be set up to use key board entry",
+		"A": " a light pen",
+		"B": " or mouse ",
+		"C": "True ",
+		"D": "False ",
+		"correctAnswer": ""
+	},
+	{
+		"no": "12",
+		"question": "What is the main difference between DDCMP and SDLC?",
+		"A": "DDCMP does not need special hardware to final the beginning of a massage",
+		"B": "SDLC does not use CRC",
+		"C": "SDLC has a IT address",
+		"D": "DDCMP has a message header",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "13",
+		"question": "To cannect hub and computer straight through cable is required ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "14",
+		"question": "A modem is not needed when accessing the Internet through ",
+		"A": "Wi-Fi ",
+		"B": "LAN ",
+		"C": "Leased Line ",
+		"D": "Cable ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "15",
+		"question": "A group of 4 bits known as word ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "16",
+		"question": "Personal computers use a number of chips mounted on a main circuit board. The common name for such boards is ________. ",
+		"A": "Daughter Board",
+		"B": "Motherboard ",
+		"C": "father Board ",
+		"D": "Breadboard",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "17",
+		"question": "Today __________is the common measurements for the speed of a computer microprocessor?",
+		"A": "GHZ",
+		"B": "MHz",
+		"C": "Kbps",
+		"D": "Hz",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "18",
+		"question": "A file without extension ……….in MS DOS ",
+		"A": "executable ",
+		"B": "is not recognizable ",
+		"C": "Document file ",
+		"D": "reptesents database file .",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "19",
+		"question": "registrstion procedures for message header fields is defined by ",
+		"A": "RFC 3865",
+		"B": "RFC 3864",
+		"C": "RFC 4864",
+		"D": "RFC 4865",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "20",
+		"question": "Web site will not be accessed from a similar index page. Allowing users to move directly to the information they want. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "21",
+		"question": "First web browser was created by __________. ",
+		"A": "Jacobs Ian ",
+		"B": "Tim Bemer - Lee",
+		"C": "Mozilla foundation ",
+		"D": "Marc Andreesen ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "22",
+		"question": "TELNET IS A _________ program",
+		"A": "Remote Login ",
+		"B": "MS office bundled ",
+		"C": "Application ",
+		"D": "Medical",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "23",
+		"question": "In Excel",
+		"A": " IF we write formula = 3+4*5 then resuot is 35",
+		"B": " but =(3+4)*5 then result is 23. ",
+		"C": "True ",
+		"D": "False ",
+		"correctAnswer": ""
+	},
+	{
+		"no": "24",
+		"question": "TDS means ",
+		"A": "Tax Deducted at source ",
+		"B": "Time Deposit scheme ",
+		"C": "None of the options ",
+		"D": "Total Deposit scheme",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "25",
+		"question": "UDP operates at Network layer ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "26",
+		"question": "In which direction paragraphs cannot be aligned? ",
+		"A": "right ",
+		"B": "horizontal ",
+		"C": "left ",
+		"D": "centre",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "27",
+		"question": "In Inteenet Explirer",
+		"A": " you cannot add any site to the Trusted zone in security settings ",
+		"B": "True ",
+		"C": "False ",
+		"D": "e",
+		"correctAnswer": ""
+	},
+	{
+		"no": "28",
+		"question": "BCC means ",
+		"A": "Black Carboncopy ",
+		"B": "Beautiful carboncopy ",
+		"C": "Blind carboncopy",
+		"D": "Background carboncopy",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "29",
+		"question": "HTML codes are written specifially for displaying browser applications desigan for the WORLD WIDE WEB ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "30",
+		"question": "Hyeperlinks enable users to eusily navigate the web pages.",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "31",
+		"question": "Follwing is program that gives privacy to E-mail. ",
+		"A": "PGP ",
+		"B": "PGN ",
+		"C": "NGN ",
+		"D": "NGP",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "32",
+		"question": "standard HTML is an instance of _________ .",
+		"A": "DHTML",
+		"B": "XML ",
+		"C": "SGML",
+		"D": "WML",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "33",
+		"question": "DLL file in windows operting system is. ",
+		"A": "Dynamic Link Library ",
+		"B": "Dynamic Link Location ",
+		"C": "Data - Link Location ",
+		"D": "Data - Link Library ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "34",
+		"question": "Enter key is used to move to ____________ . ",
+		"A": "one cell in the direction of the arround ",
+		"B": "One cell to the left ",
+		"C": "One cell down or to the next cell in sequence ",
+		"D": "One cell up.",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "35",
+		"question": "which option in file pull-down menu is used to close file in MS word ? ",
+		"A": "new ",
+		"B": "Quit ",
+		"C": "Exit ",
+		"D": "Close ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "36",
+		"question": "Which of the follwing by passes the print dialog box when printing individual slides or an entire presentation ?",
+		"A": "Ctrl + p ",
+		"B": "The print button ",
+		"C": "file",
+		"D": " print ",
+		"correctAnswer": "file"
+	},
+	{
+		"no": "37",
+		"question": "word prints header in the top margin. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "38",
+		"question": "Signature will be automatically appended to all message user sends",
+		"A": " however",
+		"B": " while entering the text of massage a window will be available at the top of the massage where user can choose to sent the signature or to not send it. ",
+		"C": "False ",
+		"D": "True ",
+		"correctAnswer": ""
+	},
+	{
+		"no": "39",
+		"question": "Country domains are also called as __________ If domain name does not end in a dot",
+		"A": " it is incomplete and the _________ may complete this by appending a suffix. ",
+		"B": "state",
+		"C": " DNS",
+		"D": "National domains",
+		"correctAnswer": " DNS resolver "
+	},
+	{
+		"no": "40",
+		"question": "C : > cd G : changes drives from c to G ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "41",
+		"question": "To print document. ",
+		"A": "Ctrl + p ",
+		"B": "P + Crtl ",
+		"C": "Ctrl + shift + P ",
+		"D": "ctrl + P ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "42",
+		"question": "ctrl + click each slide allow you to select more than one slide in a presentation. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "43",
+		"question": "A directory structure has pages organized by subject",
+		"A": " and can then be navigated by selecting things off the disectory.",
+		"B": "True ",
+		"C": "False ",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "44",
+		"question": "USB provides ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "45",
+		"question": "An application and appliction extension are same. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "46",
+		"question": "The side bar in a window or word processor that has an arrow on both ends and a box in the middle that you use your mouse to move the pages up or down is called as a _______",
+		"A": "Page bar ",
+		"B": "Scroll Bar ",
+		"C": "Roll Bar ",
+		"D": "Potato bar ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "47",
+		"question": "Format painter is used to change background color of a slide. ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "48",
+		"question": "A web browser is a software program that allows you browse",
+		"A": " search and receive various types of information such as websites",
+		"B": " images",
+		"C": " videos and audio files and other documents on the web. ",
+		"D": "True ",
+		"correctAnswer": "False "
+	},
+	{
+		"no": "49",
+		"question": "Uniform resource Locater (URL ) points to one web page only. ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "50",
+		"question": "Oraging the mouse or holding the down the shift key while clicking with the mouse will only select cells that are adjacent to ecah other ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "51",
+		"question": "Terminators are used in Bus Topology. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "52",
+		"question": "e- Governance is a govt's initiative. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "53",
+		"question": "Which of the follwing is NOT a guideline for writing and using e- mail ? ",
+		"A": "write a clear explicit Subject line ",
+		"B": "End with a signature Block ",
+		"C": "Indent paragraphs ",
+		"D": "keep it short ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "54",
+		"question": "E- mail stands for ",
+		"A": "Easy mail ",
+		"B": "Electric mail ",
+		"C": "Electronic Mail ",
+		"D": "Elegant mail ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "55",
+		"question": "the MLM reads your e- mail address from the headers of you massage ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "56",
+		"question": "Users feel free to POP on and off of e- mail lists until one find the ones that meet your needs. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "57",
+		"question": "Which of the following is not filling to e- mail provisions ? ",
+		"A": "filtering E-mail ",
+		"B": "Address book ",
+		"C": "creating folder or label ",
+		"D": "compress e- mail contents ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "58",
+		"question": "A printer device converts digital image into analog image. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "59",
+		"question": "Two persons can have the same E-mail address ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "60",
+		"question": "BIOS stands for ? ",
+		"A": "Basic Inpput Output system ",
+		"B": "Basic Inpput Output Structure ",
+		"C": "Basic Inpput Output software ",
+		"D": "Bit in Out Service ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "61",
+		"question": "The ______ flag bits allowed the host to specify what it cared most about from the set {Delay",
+		"A": " Throughput",
+		"B": " Relibility } ",
+		"C": "six ",
+		"D": "five ",
+		"correctAnswer": "four "
+	},
+	{
+		"no": "62",
+		"question": "X. 25 is an example of circuit switched network. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "63",
+		"question": "Power point provides various views a slide viz : Normal view",
+		"A": " Outline view",
+		"B": " slide sorter view and __________ ",
+		"C": "slide view",
+		"D": "Outer view ",
+		"correctAnswer": "Verticle view "
+	},
+	{
+		"no": "64",
+		"question": "Hyeper text transfer protocol ( HTTP ) is a A microsoft technology allowing the insertion of server executable scripts in web pages. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "65",
+		"question": "A screen element of MS word that is usually located below the title bar that provides categorized options is ",
+		"A": "Tool bar ",
+		"B": "Menu bar ",
+		"C": "all of the options ",
+		"D": "status bar ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "66",
+		"question": "Which task can't be done by web browser ? ",
+		"A": "a program used to view html documents ",
+		"B": "designing of website ",
+		"C": "it enables user to access the resources of internet ",
+		"D": " A program that can display a web page. ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "67",
+		"question": "A new font can always be added. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "68",
+		"question": "When internet data leaves your campus",
+		"A": " it normaily goes to a ( n ) ______ before moving toward its destination. ",
+		"B": "communication system ",
+		"C": "Internet backbone ",
+		"D": "Network access point ",
+		"correctAnswer": "Base station. "
+	},
+	{
+		"no": "69",
+		"question": "Our own customised image can be used as a bullet. ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "70",
+		"question": "How long do messages stay in archive ? ",
+		"A": "FOREVER ",
+		"B": "500DAYS",
+		"C": "30 DAYS",
+		"D": "100DAYS",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "71",
+		"question": "Press ____________ to change the case of letters in a text box ",
+		"A": "SHIFT + F6",
+		"B": "CTRL + F6",
+		"C": "CTRL + F3",
+		"D": "SHIFT + F3",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "72",
+		"question": "Slide master is a blueprint behind your entire slide . ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "73",
+		"question": "Which of the following is not an effective method of smart searching ",
+		"A": "starting with your favourite search engine",
+		"B": "Identifying the corrcct search engine ",
+		"C": "Using Boolean Technique",
+		"D": "Narrowing your topic",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "74",
+		"question": "Personal or business confidential information should be disseminated in wile using Instant messaging service in enterpise",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "T"
+	},
+	{
+		"no": "75",
+		"question": "Which one is True related to CC and BCC",
+		"A": "cc is client copy ",
+		"B": "bcc is blank carbon copy ",
+		"C": "in CC the addressee of mail can't come to know to whom the same mail is send ",
+		"D": "in bcc ",
+		"correctAnswer": " the addressee of mail don't know about to whom the mail is send. "
+	},
+	{
+		"no": "76",
+		"question": "Internet was invented in which year?",
+		"A": "1990",
+		"B": "1975",
+		"C": "1969",
+		"D": "1995",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "77",
+		"question": "Which one of the following is submenu of start menu for searching files and folders ? ",
+		"A": "Documents ",
+		"B": "Programs",
+		"C": "Search ",
+		"D": "Control panel",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "78",
+		"question": "Video files cannot be attatched with email",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "79",
+		"question": "Which of the following is the right method to change the systen date?",
+		"A": "Right click on taskbar ; select ''Properties'' ; selsct ''Date'' ",
+		"B": "start ;select ''settings'' ; select ''Control Panel''; seoect ''Rsgional settings'' ;click ''Data'' Tab (change the settings there)",
+		"C": "Right click on Desktop ; select ''properties'' ; click ''settings'' tab ; select ''Data'' .",
+		"D": "select ''start'' ; select ''settings'' ; select ''control panel'' ; select ''Date and time'' (change the settings there)",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "80",
+		"question": "The rangfe C4:F10 contains a table Column F contains formulas that add the values in the row. You move the range C4:D10 Left two columns",
+		"A": " but leave the cells in column F in place. The formulas in column F still refer to the original cells . ",
+		"B": "False ",
+		"C": "true ",
+		"D": "",
+		"correctAnswer": ""
+	},
+	{
+		"no": "81",
+		"question": "ctrl + U select the italics style for the selected text",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "82",
+		"question": "A mail submission agent (MSA) is a computer program or software agent that receives electronic mail messages from a mail user agent (MUA) and cooperates with a mail transfer agent (MTA) for delivery of the mail ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "83",
+		"question": "The rules and encodig specifications for sending data are called protocols. ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "84",
+		"question": "The subnet mask can help us to find the netid and the hostid . ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "85",
+		"question": "___________ invented the world wide web . ",
+		"A": "Tim bemers Lee ",
+		"B": "James kilby ",
+		"C": "Tom Lee",
+		"D": "William shockly.",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "86",
+		"question": "shift + Tab key is used to move to one cell up. ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "87",
+		"question": "In order to edit a char you need to double click the chart object. ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "True "
+	},
+	{
+		"no": "88",
+		"question": "Search result pages are retrieved by a web crawler ? ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "True "
+	},
+	{
+		"no": "89",
+		"question": "Use the arrow key to scroll through the message . ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "True "
+	},
+	{
+		"no": "90",
+		"question": "Which function retums the remainder after number is divided by divisor? ",
+		"A": "REMAINDER ()",
+		"B": "MODULO ()",
+		"C": "REM ()",
+		"D": "MOD ()",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "91",
+		"question": "A blank line is also colled as a paragraph. It is called as an empty paragraph.",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "92",
+		"question": "What kinds of services are available free in Basic savings Bank Deposit Account ?",
+		"A": "4 withdrawals in a month cincluding ATM withdrawals",
+		"B": "All of the options ",
+		"C": "No annual maintenance charges on ATM - Cum - Debit Card",
+		"D": "Receipt / credit of money through NEFT /RTGS",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "93",
+		"question": "A user's hotlist is not stored on his / her local web client computer . ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "94",
+		"question": "A nibble is a collection of eight bits . ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "95",
+		"question": "Home key is used to move to ",
+		"A": "The first cell in the row ",
+		"B": "The first cell in the worksheet",
+		"C": "One cell down or to the next cell in sequence ",
+		"D": "To the lower - right cell in the worksheet",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "96",
+		"question": "The Handout Master can be used to modify your handout format . ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "97",
+		"question": "An e-mail letter which sent as an e-mail using a computer then printed our and delivered as a traditional (physical) letter . ",
+		"A": "False ",
+		"B": "True ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "98",
+		"question": "which of the following methods can not be used toenter data in a cell ?",
+		"A": "Pressing an arrow key ",
+		"B": "clicking on the formula bar ",
+		"C": "pressing the tab key ",
+		"D": "pressing the Esc key",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "99",
+		"question": "Quick print option is available in Excel - 2007 . ",
+		"A": "True ",
+		"B": "False ",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "100",
+		"question": "When an entire table is selectd . The outside border appears .",
+		"A": "solid ",
+		"B": "hashed marked ",
+		"C": "black ",
+		"D": "dotted",
+		"correctAnswer": "A"
+	}
+]
