@@ -20,11 +20,12 @@ function quiz_init() {
         var div = $('#quizDiv');
         var nButton = $('#nButton');
         var bButton = $('#bButton');
+        var nextQButton = $('#nextQButton');
         var goQuestion = $('#goButton');
         var questionHeading = $("h2");
         var currentQuestion = 0;
         var score = 0;
-
+        var flagButton= true;
         // empty and reload the page for new questions
        function loadPages() {
             questionHeading.empty();
@@ -94,6 +95,7 @@ function quiz_init() {
 
         // show back button (except for the last page)
         function showButtons() {
+            nButton.show();
             if (currentQuestion > 0) {
                 bButton.show();
             }
@@ -115,25 +117,38 @@ function quiz_init() {
                 var lastUserChoice = userChoice[userChoice.length - 1];
                 RadionButtonSelectedValue("answer", lastUserChoice)
                 userChoice.pop();
-            }
+            }   
         )
+        nextQButton.on('click', function () {
+                
+            currentQuestion++;
+            document.getElementById('answerPanal').innerHTML = "";
+            loadPages();    
+            var lastUserChoice = userChoice[userChoice.length - 1];
+            RadionButtonSelectedValue("answer", lastUserChoice)
+            userChoice.pop();
 
+           
+        });
         /* a user clicks the next button (+ client validation)
            Log their answer. Roll on if their are more Q's. 
         */
         nButton.on('click', function () {
+            
             if ($('input[name=answer]:checked', '#quizDiv').length === 0) {
                 alert("please select an answer");
             } 
             else {
                 logAnswer();
                 checkAnswer(currentQuestion);
+                nButton.hide();
+                
             }
 
             // If there are more questions
             if (currentQuestion < allQuestions.length) {
 
-                loadPages();
+                //loadPages();
             } // finish and disable button
             else {
                 totalScorePage()
@@ -177,18 +192,18 @@ function quiz_init() {
                 ansfinal = "D";
             }
             if(ansfinal===allQuestions[currentQuestion-1].correctAnswer){
-                alert("Right");
+                //alert("Right");
                 document.getElementById('answerPanal').innerHTML = "";
-                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color:  #076749;margin-left: 40%;">Question No : `+ currentQuestion +` - RIGHT ANSWER</div>`
+                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color:  #076749;margin-left: 40%;">Your answer is CORRECT</div>`
                
             }else{
                 debugger;
                
                var ansKey= allQuestions[currentQuestion-1].correctAnswer;
                var rightAnswer=allQuestions[currentQuestion-1][ansKey];
-                alert("Wrong....Right answer is "+ rightAnswer);
+                //alert("Wrong....Right answer is "+ rightAnswer);
                 document.getElementById('answerPanal').innerHTML = "";
-                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color: #ea0a0a;margin-left: 40%;">Question No : `+ currentQuestion +` - WRONG ANSWER.... Right answer is `+rightAnswer +`</div>`
+                document.getElementById('answerPanal').innerHTML +=`<div id="answerPanal" style="font-size: larger;color: #ea0a0a;margin-left: 40%;">Your answer is WRONG. Correct answer is `+ansKey+`</div>`
 
             }
         }
