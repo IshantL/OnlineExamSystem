@@ -25,7 +25,7 @@ function quiz_init() {
         var questionHeading = $("h2");
         var currentQuestion = 0;
         var score = 0;
-        var flagButton= true;
+        var flagButton= false;
         // empty and reload the page for new questions
        function loadPages() {
             questionHeading.empty();
@@ -59,15 +59,15 @@ function quiz_init() {
             var displayChoices3 = allQuestions[currentQuestion].C;
             var displayChoices4 = allQuestions[currentQuestion].D;
             if(displayChoices1!==""){
-                displayChoices.push(displayChoices1);
+                displayChoices.push("A: "+displayChoices1);
            }if(displayChoices2!==""){
-                 displayChoices.push(displayChoices2);
+                 displayChoices.push("B: "+displayChoices2);
             }
             if(displayChoices3!==""){
-                displayChoices.push(displayChoices3);
+                displayChoices.push("C: "+displayChoices3);
            }
            if(displayChoices4!==""){
-            displayChoices.push(displayChoices4);
+            displayChoices.push("D: "+displayChoices4);
             }
 
             for (var i = 0; i < displayChoices.length; i++) {
@@ -120,15 +120,16 @@ function quiz_init() {
             }   
         )
         nextQButton.on('click', function () {
-                
-            currentQuestion++;
+             if(!flagButton){
+                currentQuestion++;
+             }   
+            //currentQuestion++;
             document.getElementById('answerPanal').innerHTML = "";
             loadPages();    
             var lastUserChoice = userChoice[userChoice.length - 1];
             RadionButtonSelectedValue("answer", lastUserChoice)
             userChoice.pop();
-
-           
+            flagButton=false;
         });
         /* a user clicks the next button (+ client validation)
            Log their answer. Roll on if their are more Q's. 
@@ -142,7 +143,7 @@ function quiz_init() {
                 logAnswer();
                 checkAnswer(currentQuestion);
                 nButton.hide();
-                
+                flagButton=true;
             }
 
             // If there are more questions
