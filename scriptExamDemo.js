@@ -15,7 +15,7 @@ function quiz_init() {
 
      debugger;
       // setting up/caching some vars
-        
+        var wrongAnswer=[];
         var userChoice = [];
         var div = $('#quizDiv');
         var nButton = $('#nButton');
@@ -126,9 +126,9 @@ function quiz_init() {
             //currentQuestion++;
             document.getElementById('answerPanal').innerHTML = "";
             loadPages();    
-            var lastUserChoice = userChoice[userChoice.length - 1];
-            RadionButtonSelectedValue("answer", lastUserChoice)
-            userChoice.pop();
+            //var lastUserChoice = userChoice[userChoice.length - 1];
+           // RadionButtonSelectedValue("answer", lastUserChoice)
+            //userChoice.pop();
             flagButton=false;
         });
         /* a user clicks the next button (+ client validation)
@@ -141,7 +141,7 @@ function quiz_init() {
             } 
             else {
                 logAnswer();
-                checkAnswer(currentQuestion);
+                //checkAnswer(currentQuestion);
                 nButton.hide();
                 flagButton=true;
             }
@@ -211,20 +211,40 @@ function quiz_init() {
 
 
         function logAnswer(){
+            debugger;
             currentAnswer = ($('input[name=answer]:checked', '#quizDiv').val()); // grab the users choice
             userChoice.push(currentAnswer); // push it to the array
             currentQuestion++;
         }
 
         function totalScorePage (){
+            debugger;
             questionHeading.remove(); // clear the page
                 div.remove();
                 nButton.remove();// disable the buttons
                 bButton.remove();
+                
                 for (var i = 0; i < allQuestions.length; i++) {
-                    if (userChoice[i] == allQuestions[i].correctAnswer) {
+
+            var ans=userChoice[i];
+            var ansfinal=null;
+            if(ans==="0"){
+                ansfinal = "A";
+            }
+            if(ans==="1"){
+                ansfinal = "B";
+            }
+            if(ans==="2"){
+                ansfinal = "C";
+            }
+            if(ans==="3"){
+                ansfinal = "D";
+            }//Iterate through the arrays, compare choice and correct answer, total score
+                    if (ansfinal == allQuestions[i].correctAnswer) {
                         score++;
-                    }   //Iterate through the arrays, compare choice and correct answer, total score
+                    }else{
+                        wrongAnswer.push(allQuestions[i]);
+                    }   
                 };
 
                 percentScore = Math.floor(((score) / (allQuestions.length)) * 100); // get a % score
@@ -249,6 +269,14 @@ function quiz_init() {
                     .append(percentScore + "%");
 
                 $("<button>", {
+                    id: 'wrongAnswer', text: "Click here to check right answers"
+                })
+                    .appendTo("body")
+                    .on('click', function () {
+                        window.location='questions.html';
+                    });
+
+                $("<button>", {
                     id: 'reloading', name: 'reloading', value: 'reloading', text: "Play again"
                 })
                     .appendTo("body")
@@ -261,9 +289,14 @@ function quiz_init() {
         showQuestion();
         showChoices();
         showButtons();
-
+        var quesElem=wrongAnswer.map((ques)=>{
+            debugger;
+            var a=JSON.stringify(ques,null, 2);;
+             return `<div>`+a+`</div>`
+        }).join("");
+         document.getElementById('questionslist').innerHTML+=quesElem;
     }
 
-getQuestions(); // grab the questions stored in the JSON file
+getQuestionsExam(); // grab the questions stored in the JSON file
 
 

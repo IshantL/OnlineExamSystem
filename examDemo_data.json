@@ -1,0 +1,47 @@
+[
+	{
+		"no": "1",
+		"question": "Check ecxamppp  if you will be displaying How printing your document on another computer you will want to sure and select the option under the save tab ",
+		"A": "Save font",
+		"B": "embedded font",
+		"C": "etype font ruue embed font",
+		"D": "save truetype font ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "2",
+		"question": "Device drivers are specialised programs designed to allow particular input and output device to communication with the rest of the computer system ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "3",
+		"question": "Which option can be used to create a new slide show with the current slide but presented in a different order ",
+		"A": "Custom show ",
+		"B": "slideshow view",
+		"C": "Slideshow setup ",
+		"D": "rehersal",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "4",
+		"question": "a smiley is an expression representing facial expression of Writers ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "5",
+		"question": "Windows NT is application software",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	}
+]
