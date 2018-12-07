@@ -1,7 +1,7 @@
 [
 	{
 		"no": "1",
-		"question": "Check ecxamppp  if you will be displaying How printing your document on another computer you will want to sure and select the option under the save tab ",
+		"question": "if you will be displaying How printing your document on another computer you will want to sure and select the option under the save tab ",
 		"A": "Save font",
 		"B": "embedded font",
 		"C": "etype font ruue embed font",
@@ -43,5 +43,410 @@
 		"C": "",
 		"D": "",
 		"correctAnswer": "A"
+	},
+	{
+		"no": "6",
+		"question": "Internet required",
+		"A": "Are commonly agreed set of rules to communicate between computers",
+		"B": "An international agreement to connect computer ",
+		"C": "A local area network",
+		"D": "A world wide web",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "7",
+		"question": "Amoung  ABF",
+		"A": " JPG TIF ",
+		"B": " GIF",
+		"C": " TIF  He is an odd man out because it is not a graphic file format ",
+		"D": "0",
+		"correctAnswer": "1"
+	},
+	{
+		"no": "8",
+		"question": "Search engines can search document only ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "9",
+		"question": "The back and forward buttons can be used to visit only pages from the same website ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "10",
+		"question": "An icon is use",
+		"A": "To represent the file linked to it ",
+		"B": "To execute the application ",
+		"C": "To display the content of file ",
+		"D": "To add a command to it ",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "11",
+		"question": "NRI means ",
+		"A": "None of the options ",
+		"B": "Non ruler individuals ",
+		"C": "On rural immigrants ",
+		"D": "Non resident Indian",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "12",
+		"question": "PowerPoint allows you to change colour of all subject and text on a flat except art organisation chart ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "13",
+		"question": "Number 1 100 is binary number system is equal to ",
+		"A": "8",
+		"B": "15",
+		"C": "12",
+		"D": "10",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "14",
+		"question": "What is the most commonly used the file name for the main page of www site ",
+		"A": "Index .HTML ",
+		"B": "Home . HTML",
+		"C": "start.HTML",
+		"D": "deaelt.HTML",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "15",
+		"question": "Terminator are used in bus topology",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "16",
+		"question": "…...it is one of the document collaboration software ",
+		"A": "Sun Java ",
+		"B": "microsoft  SQL  server ",
+		"C": "Work zone",
+		"D": "Microsoft dot net ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "17",
+		"question": "Bluetooth works with a distance of up to  metres ",
+		"A": "150",
+		"B": "200",
+		"C": "100",
+		"D": "10",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "18",
+		"question": "Which of the following memories needs refresh ",
+		"A": "ram",
+		"B": "rom",
+		"C": "sram",
+		"D": "dram",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "19",
+		"question": "Which of the following terms applies total all the web pages from amazon.com ",
+		"A": "Top level domain ",
+		"B": "web domain ",
+		"C": "website ",
+		"D": "website address ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "20",
+		"question": "If Outlook expression is not Netscape communicator is called Outlook expression icon ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "21",
+		"question": "There is no difference between e-government and e-governance ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "22",
+		"question": "If dial marked in Megahertz show a  reading of 3.525 mhz what would it how is if it were marked kilohertz  ",
+		"A": "35.25 khz",
+		"B": "3",
+		"C": "525",
+		"D": "000 khz",
+		"correctAnswer": "3525 khaz"
+	},
+	{
+		"no": "23",
+		"question": "After insertion of a row or column it can't be deleted in excel sheet ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "24",
+		"question": "A Broadcast message in an example full duplex method ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "25",
+		"question": "Which of the following changes to the folder dir of your computer ",
+		"A": "M k d i r d i r",
+		"B": "rmdir dir",
+		"C": "cddir",
+		"D": "ieddir",
+		"correctAnswer": "cddir"
+	},
+	{
+		"no": "26",
+		"question": "Which of the following statement are true ",
+		"A": "Lurking is not a good idea because other user will be become agi that you are not practicing ",
+		"B": "Smileys  is a symbol type from keyboard ",
+		"C": "Emoticon Sara way of shortening 3 word phrase ",
+		"D": "To lurk means to participate in a conversation on the Internet without responding to any of the message ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "27",
+		"question": "…. are covered under pm jdm Life Insurance Scheme of rs 30000 % ",
+		"A": "Employees of Central / State Government /public sector undertakings /Bank ",
+		"B": "All of the options ",
+		"C": "Aam Aadmi Bima Yojana beneficiaries",
+		"D": "income tax payee",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "28",
+		"question": "New slide button on too lbar insert a new slide in current presentation ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "29",
+		"question": "Basic objectives of an OS is to make computer system interactive and user friendly ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "30",
+		"question": "Which of the following is not the command in Slideshow menu",
+		"A": "Slide transition",
+		"B": "set up show ",
+		"C": " pack and go ",
+		"D": "Action button ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "31",
+		"question": "When writing an email it is generally a good idea for your preparation paragraph is to be ",
+		"A": "Long ",
+		"B": "in a huge font making them easier to read   ",
+		"C": "short",
+		"D": "Always indented ",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "32",
+		"question": "All of the following are examples of storage device except ",
+		"A": "Hard disc drives",
+		"B": "CD drives",
+		"C": "printer",
+		"D": "floppy disc . drives",
+		"correctAnswer": "C"
+	},
+	{
+		"no": "33",
+		"question": "Small text file that website put on your computer information about you and your reference is known as ",
+		"A": "Home page ",
+		"B": "address ",
+		"C": "URL ",
+		"D": "cookies ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "34",
+		"question": "Spamming is a very poor netiquette means ",
+		"A": "Something a message that contain graphic description",
+		"B": "Spilling the use of meat by products into your keyboard ",
+		"C": "Sending in lines of half nonsensical  as clear garbage in our chat conversation ",
+		"D": "Posting or emailing unsolicited advertising message to wild audience ",
+		"correctAnswer": "D"
+	},
+	{
+		"no": "35",
+		"question": "Message does not allow you to store email address in address book ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "36",
+		"question": "Name box display",
+		"A": "The address of the sale of the range that is currently selected ",
+		"B": "The program and the name of files you are working on ",
+		"C": "What is going on the program ",
+		"D": "A List of available Excel commands that relate to the task you are performing ",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "37",
+		"question": "Using Windows Explorer A + Sign in front of folder indicates ",
+		"A": "A Graphic file ",
+		"B": "the folder contents of folder ",
+		"C": "an open folder",
+		"D": "a  text file",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "38",
+		"question": "The easy way to apply varied animation to test on slide has to apply on animation scheme ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "39",
+		"question": "Margin is not set with the format option of a work book ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "40",
+		"question": "User can sorte email item and inbox or sent items according to the sender",
+		"A": " subdate ",
+		"B": " received a date and size ",
+		"C": "0",
+		"D": "1",
+		"correctAnswer": ""
+	},
+	{
+		"no": "41",
+		"question": "Bank does not provide loans for ",
+		"A": "Drinking and gambling",
+		"B": "education loan",
+		"C": "crop loan",
+		"D": "home loan",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "42",
+		"question": "True false function function of a few that possibility to do front result depending on the entered condition",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "43",
+		"question": "Directory is a list of files ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "44",
+		"question": "Which Boolean operator is used to match all words of search engine ",
+		"A": "or",
+		"B": "and",
+		"C": "not",
+		"D": "and ore both",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "45",
+		"question": "A blank line is also called as a paragraph it is called as a empty paragraph ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "46",
+		"question": "System software enables the end user to accomplish certain specific task ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "47",
+		"question": "Control + home key is used to move the first cell in the work sheet ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "48",
+		"question": "The part of the fragment without the mark is called a fragment identifier ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "A"
+	},
+	{
+		"no": "49",
+		"question": "The TCP IP protocol / family  include IP TCP and udp ",
+		"A": "0",
+		"B": "1",
+		"C": "",
+		"D": "",
+		"correctAnswer": "B"
+	},
+	{
+		"no": "50",
+		"question": "In inbox view of email client program message heading having exclamation mark ",
+		"A": "Message without attachment  ",
+		"B": "identify important message ",
+		"C": "identify the new re read or reply to message",
+		"D": "message to be dealt letter ",
+		"correctAnswer": "D"
 	}
 ]
