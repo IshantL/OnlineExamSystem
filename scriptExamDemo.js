@@ -16,10 +16,12 @@ function quiz_init() {
      debugger;
       // setting up/caching some vars
         var wrongAnswer=[];
+        correctAnsArray=[];
         var userChoice = [];
         var div = $('#quizDiv');
         var nButton = $('#nButton');
         var bButton = $('#bButton');
+        var fButton = $('#fButton');
         var nextQButton = $('#nextQButton');
         var goQuestion = $('#goButton');
         var questionHeading = $("h2");
@@ -98,9 +100,11 @@ function quiz_init() {
             nButton.show();
             if (currentQuestion > 0) {
                 bButton.show();
+                fButton.show();
             }
             else if (currentQuestion == 0) {
                 bButton.hide();
+                fButton.hide();
             }
         }
 
@@ -134,8 +138,12 @@ function quiz_init() {
         /* a user clicks the next button (+ client validation)
            Log their answer. Roll on if their are more Q's. 
         */
+       fButton.on('click', function () {
+        totalScorePage()      
+        });
+
         nButton.on('click', function () {
-            
+            debugger;
             if ($('input[name=answer]:checked', '#quizDiv').length === 0) {
                 alert("please select an answer");
             } 
@@ -144,16 +152,23 @@ function quiz_init() {
                 //checkAnswer(currentQuestion);
                 nButton.hide();
                 flagButton=true;
+                if (currentQuestion < allQuestions.length) {
+
+                    //loadPages();
+                } // finish and disable button
+                else {
+                    totalScorePage()
+                }
+                if(!flagButton){
+                    currentQuestion++;
+                 }   
+                document.getElementById('answerPanal').innerHTML = "";
+                loadPages();    
+                flagButton=false;
             }
 
             // If there are more questions
-            if (currentQuestion < allQuestions.length) {
-
-                //loadPages();
-            } // finish and disable button
-            else {
-                totalScorePage()
-            }
+           
 
         });
 
@@ -242,6 +257,7 @@ function quiz_init() {
             }//Iterate through the arrays, compare choice and correct answer, total score
                     if (ansfinal == allQuestions[i].correctAnswer) {
                         score++;
+                        correctAnsArray.push(allQuestions[i]);
                     }else{
                         wrongAnswer.push(allQuestions[i]);
                     }   
@@ -249,6 +265,7 @@ function quiz_init() {
 
                 percentScore = Math.floor(((score) / (allQuestions.length)) * 100); // get a % score
                 // create the score page and give the user a chance to reload
+
                 $("<p>", {
                     id: 'thankYou', text: 'Thanks for taking the quiz '
                 })
@@ -268,13 +285,7 @@ function quiz_init() {
                     .appendTo("body")
                     .append(percentScore + "%");
 
-                $("<button>", {
-                    id: 'wrongAnswer', text: "Click here to check right answers"
-                })
-                    .appendTo("body")
-                    .on('click', function () {
-                        window.location='questions.html';
-                    });
+            
 
                 $("<button>", {
                     id: 'reloading', name: 'reloading', value: 'reloading', text: "Play again"
@@ -283,18 +294,112 @@ function quiz_init() {
                     .on('click', function () {
                         location.reload();
                     });
+                    //Correct Anwers array
+                    
+
+                    $("<p>", {
+                        id: 'ans', text: 'Your Right Answers:'
+                    })
+                        .appendTo("body")
+                    var quesElem=correctAnsArray.map((ques)=>{
+                        
+                        $("<p>", {
+                        id: 'questionNo', text: "Question No: "+ ques.no
+                                        
+                        })
+                        .appendTo("body");
+                        $("<div>", {
+                        id: 'question', text: "Question: "+ ques.question
+                                            
+                        })
+                        .appendTo("body");
+                        $("<div>", {
+                            id: 'optA', text: "Option A: "+ ques.A
+                                                
+                        })
+                        .appendTo("body");$("<div>", {
+                            id: 'optB', text: "Option B: "+ ques.B
+                                            
+                        })
+                        .appendTo("body");
+                        if(ques.C!==""){
+                        $("<div>", {
+                            id: 'optC', text: "Option C: "+ ques.C
+                                                
+                        })
+                        .appendTo("body");
+                    }
+                    if(ques.D!==""){
+                        $("<div>", {
+                            id: 'optD', text: "Option D: "+ ques.D
+                                                    
+                        })
+                            .appendTo("body");
+                    }
+                        $("<div>", {
+                            id: 'correctAns', text: "Correct Answer: "+ ques.correctAnswer
+                                                    
+                        })
+                            .appendTo("body")
+                            .append("  ") 
+                            .append("  ");    
+                    });
+
+                    $("<p>", {
+                        id: 'ans', text: 'Your Wrong Answers:'
+                    })
+                        .appendTo("body")
+                    var quesElem=wrongAnswer.map((ques)=>{
+                        debugger;
+                        $("<p>", {
+                        id: 'questionNo', text: "Question No: "+ ques.no
+                                        
+                        })
+                        .appendTo("body");
+                        $("<div>", {
+                        id: 'question', text: "Question: "+ ques.question
+                                            
+                        })
+                        .appendTo("body");
+                        $("<div>", {
+                            id: 'optA', text: "Option A: "+ ques.A
+                                                
+                        })
+                        .appendTo("body");$("<div>", {
+                            id: 'optB', text: "Option B: "+ ques.B
+                                            
+                        })
+                        .appendTo("body");
+                        if(ques.C!==""){
+                        $("<div>", {
+                            id: 'optC', text: "Option C: "+ ques.C
+                                                
+                        })
+                        .appendTo("body");
+                    }
+                    if(ques.D!==""){
+                        $("<div>", {
+                            id: 'optD', text: "Option D: "+ ques.D
+                                                    
+                        })
+                            .appendTo("body");
+                    }
+                        $("<div>", {
+                            id: 'correctAns', text: "Correct Answer: "+ ques.correctAnswer
+                                                    
+                        })
+                            .appendTo("body")
+                            .append("  ") 
+                            .append("  ");    
+                    });
         }
 
 
         showQuestion();
         showChoices();
         showButtons();
-        var quesElem=wrongAnswer.map((ques)=>{
-            debugger;
-            var a=JSON.stringify(ques,null, 2);;
-             return `<div>`+a+`</div>`
-        }).join("");
-         document.getElementById('questionslist').innerHTML+=quesElem;
+        
+         //document.getElementById('questionslist').innerHTML+=quesElem;
     }
 
 getQuestionsExam(); // grab the questions stored in the JSON file
